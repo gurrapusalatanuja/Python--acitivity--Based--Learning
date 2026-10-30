@@ -20,7 +20,8 @@ codes.
 8. Stop the program.
 
 ## 3. Flowchart Using Mermaid
-```Mermaid
+```mermaid
+
 flowchart TD
     A([Start]) --> B[/Enter Student ID/]
     B --> C{ID length is 8?}
