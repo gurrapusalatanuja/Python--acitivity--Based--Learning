@@ -18,7 +18,7 @@ several days; calculate wastage percentages and identify days exceeding acceptab
 10. Stop the program.
 
 ## 3. Flowchart Using Mermaid
-
+```mermaid
 flowchart TD
     A([Start]) --> B[/Enter number of days/]
     B --> C[/Enter prepared and served meals/]
@@ -30,7 +30,7 @@ flowchart TD
     G --> I[/Display results/]
     H --> I
     I --> J([Stop])
-
+```
 
 ## 5. Sample Input
 
