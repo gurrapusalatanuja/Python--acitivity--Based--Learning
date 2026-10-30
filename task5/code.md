@@ -18,7 +18,7 @@ Develop a simple Python program to analyze student marks stored in a matrix. The
 10. Stop the program.
 
 ## 3. Flowchart Using Mermaid
-
+```mermaid
 flowchart TD
     A([Start]) --> B[/Enter students and subjects/]
     B --> C[/Enter marks matrix/]
@@ -28,7 +28,7 @@ flowchart TD
     F --> G[Find subjects with low average]
     G --> H[Display results]
     H --> I([Stop])
-
+```
 
 
 ## 5. Sample Input
