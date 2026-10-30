@@ -20,7 +20,7 @@ using a specified priority order.
 10. Stop the program.
 
 ## 3. Flowchart Using Mermaid
-
+```mermaid
 flowchart TD
     A([Start]) --> B[/Enter available resources/]
     B --> C[/Enter activity requirements/]
@@ -35,7 +35,7 @@ flowchart TD
     J -- Yes --> E
     J -- No --> K[Display allocation results]
     K --> L([Stop])
-
+```
 
 ## 5. Sample Input
 
