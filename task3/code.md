@@ -12,7 +12,8 @@
 8. Stop.
 
 ## 2. Flowchart (Mermaid)
-'''mermaid
+```mermaid
+
 flowchart TD
 A([Start]) --> B[/Enter chemical details/]
 B --> C{Valid category?}
@@ -22,12 +23,9 @@ D -- No --> F
 D -- Yes --> E[Valid]
 F --> G([Stop])
 E --> G
-'''
-## 3. Simple Python Source Code
+```
 
-```
-print("Chemical Inventory Validation")name = input("Enter chemical name: ")category = input("Enter category: ")quantity = float(input("Enter quantity: "))if category == "Flammable":    limit = 50elif category == "Corrosive":    limit = 40elif category == "Oxidizer":    limit = 30elif category == "General":    limit = 100else:    limit = 0if limit == 0:    print("Invalid Category")elif quantity < 0 or quantity > limit:    print("Invalid Quantity")elif category == "Oxidizer":    print("Check compatibility before storage")else:    print("Chemical Inventory is Valid")
-```
+
 
 ## 4. Sample Input
 
