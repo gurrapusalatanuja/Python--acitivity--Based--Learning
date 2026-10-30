@@ -16,8 +16,7 @@ unmet demand.
 9. Stop.
 
 ## 3. Flowchart Using Mermaid
-
-
+```mermaid
 flowchart TD
 A([Start]) --> B[/Enter available stock/]
 B --> C[/Enter area requirements/]
@@ -28,7 +27,7 @@ F --> G{More areas?}
 G -- Yes --> E
 G -- No --> H[Display results]
 H --> I([Stop])
-
+```
 
 ## 5. Sample Input
 
