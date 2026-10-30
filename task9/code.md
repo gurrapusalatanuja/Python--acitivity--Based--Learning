@@ -21,7 +21,7 @@ patterns.
 
 ## 3. Flowchart Using Mermaid
 
-
+```mermaid
 flowchart TD
     A([Start]) --> B[/Enter initial balance/]
     B --> C[/Enter transaction type and amount/]
@@ -40,7 +40,7 @@ flowchart TD
     K -- Yes --> C
     K -- No --> L[Display final balance and report]
     L --> M([Stop])
-
+```
 ## 5. Sample Input
 
 ```
