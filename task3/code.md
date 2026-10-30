@@ -42,6 +42,3 @@ Chemical Inventory Validation
 Chemical Inventory is Valid
 ```
 
-## 6. Conclusion
-
-This simple Python program checks chemical categories and maximum quantity limits and displays the inventory validation result.
