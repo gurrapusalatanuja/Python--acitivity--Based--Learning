@@ -20,7 +20,7 @@ financial balance.
 12. Stop the program.
 
 ## 3. Flowchart Using Mermaid
-
+```mermaid
 flowchart TD
     A([Start]) --> B[/Enter participant details/]
     B --> C{Duplicate name?}
@@ -34,7 +34,7 @@ flowchart TD
     H --> I[Calculate final balance]
     I --> J[Display audit report]
     J --> K([Stop])
-
+```
 
 ## 5. Sample Input
 
